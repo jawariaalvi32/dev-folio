@@ -54,7 +54,7 @@ export default function Intro() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                  <Button variant="outlined" color="primary">View Projects</Button>
+                  <a href="#projects"><Button variant="outlined" color="primary">View Projects</Button></a>
               </div>
           </div>
           <div className="greeting-image-div" style={{textAlign: "center"}}>

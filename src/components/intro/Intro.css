@@ -80,6 +80,10 @@
       transform: rotate(0deg);
     }
   }
+
+  a {
+    text-decoration: none;
+  }
   
   /* Media Query */
   @media (max-width: 1380px) {
