@@ -2,11 +2,13 @@ import React, { useContext } from 'react';
 import './Contact.css';
 import SocialMedia from '../socialmedia/SocialMedia.js';
 import { contactInfo } from '../../portfolio';
+import mail from '../../assets/images/mail.svg';
+import Grid from '@material-ui/core/Grid';
 
 export default function Contact() {
   return (
-    <div bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
+    <Grid container className="main" id="contact">
+      <div className="main contact-margin-top">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
@@ -14,24 +16,22 @@ export default function Contact() {
               {contactInfo.subtitle}
             </p>
             <div className='contact-text-div'>
-              <a className="contact-detail" href={'tel:' + contactInfo.number}>
-                {contactInfo.number}
-              </a>
-              <br />
-              <br />
               <a
                 className="contact-detail-email"
-                href={'mailto:' + contactInfo.email_address}
+                href={'mailto:' + contactInfo.emailAddress}
               >
-                {contactInfo.email_address}
+                {contactInfo.emailAddress}
               </a>
               <br />
               <br />
               <SocialMedia />
             </div>
           </div>
+          <div className="contact-image-div">
+          <img src={mail}/>
+          </div>
         </div>
       </div>
-    </div>
+    </Grid>
   );
 }
