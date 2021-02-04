@@ -57,7 +57,7 @@ export default function Intro() {
                   <Button variant="outlined" color="primary">View Projects</Button>
               </div>
           </div>
-          <div className="greeting-image-div">
+          <div className="greeting-image-div" style={{textAlign: "center"}}>
             <img src={Hero} />
           </div>
         </div>
