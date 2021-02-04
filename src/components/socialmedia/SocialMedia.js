@@ -1,7 +1,6 @@
 import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
-import  {FaGithub}  from 'react-icons/fa'
 
 export default function socialMedia() {
   return (
