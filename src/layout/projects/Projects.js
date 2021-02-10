@@ -3,6 +3,7 @@ import ViewProject from '../../components/project/Project'
 import { buildProjects } from "../../portfolio";
 import Grid from '@material-ui/core/Grid';
 import '../../components/project/Project.css'
+import { Button } from '@material-ui/core';
 
 function Projects() {
     if (!buildProjects.display) {
@@ -20,6 +21,9 @@ function Projects() {
                     ))
                 }
             </Grid>
+            <div className="more-projects-btn">
+                <a href="https://github.com/jawariaalvi32?tab=repositories"><Button variant="outlined" color="primary">More Projects</Button></a>
+            </div>
         </div>
 
     )

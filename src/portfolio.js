@@ -111,8 +111,8 @@ const buildProjects = {
       image: todo,
       projectName: "Todo List",
       projectDesc: "A simple todo app with firebase integration.",
-      githubLink: "https://github.com/jawariaalvi32/Shoe-store",
-      hostedLink: "https://react-shoesstore.netlify.app/"
+      githubLink: "https://github.com/jawariaalvi32/web-mobile-app/tree/master/Assignment10",
+      hostedLink: "https://webmobile-3375f.web.app/Assignment10/"
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -121,8 +121,8 @@ const buildProjects = {
 
 const contactInfo = {
   title: "Reach Out to me",
-  subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
+  subtitle: '',
+    // 'Discuss a project or just want to say hi? My Inbox is open for all.',
   emailAddress: 'jawariaalvi32@gmail.com',
 };
 

@@ -21,6 +21,12 @@
     margin: auto;
   }
 
+  .more-projects-btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
   .project-main-div > * {
     flex: 1;
     margin-bottom: 30px;
