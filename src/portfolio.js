@@ -33,7 +33,7 @@ const socialMediaLinks = {
 
 const skills = {
   title: 'What I do',
-  subTitle: 'A FULL STACK DEVELOPER WHO LOVES TO EXPLORE NEW THINGS',
+  subTitle: 'A FULL STACK DEVELOPER WHO LOVES TO EXPLORE NEW THINGS. Currently I am focusing on MERN Technology',
   softwareSkills: [
   {
     skillName: 'html-5',
