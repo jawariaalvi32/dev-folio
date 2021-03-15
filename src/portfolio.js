@@ -55,11 +55,11 @@ const skills = {
     fontAwesomeClassname: 'fab fa-php',
     color: "#8993be"
   },
-  {
-    skillName: 'Laravel',
-    fontAwesomeClassname: 'fab fa-laravel',
-    color: "#fb503b"
-  },
+  // {
+  //   skillName: 'Laravel',
+  //   fontAwesomeClassname: 'fab fa-laravel',
+  //   color: "#fb503b"
+  // },
   {
     skillName: 'reactjs',
     fontAwesomeClassname: 'fab fa-react',
@@ -85,6 +85,11 @@ const skills = {
     fontAwesomeClassname: 'fas fa-fire',
     color: "#FFA611"
   },
+  // {
+  //   skillName: 'mongoDB',
+  //   fontAwesomeClassname: 'fab fa-envira',
+  //   color: "#4DB33D"
+  // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
