@@ -60,17 +60,32 @@
   @media (max-width: 1380px) {
     .project-heading {
       font-size: 40px;
+      text-align: center !important;
+      margin-left: 0;
+
+    }
+    #projects {
+      background-image: url("../../assets/images/3.png");
+      background-size: auto;
+      width: 80% !important;
+      height: 350px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: center;
     }
   }
   @media (max-width: 768px) {
     .project-heading {
       font-size: 30px;
-      text-align: center;
+      text-align: center !important;
+      margin-left: 0;
+
     }
-    .project-div {
-      margin: 'auto';
-      display: 'flex'; 
-      justify-content: 'center'
+    #projects {
+      background-image: url("../../assets/images/3.png");
+      background-size: auto;
+      width: 80% !important;
+      height: 350px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
     }
   }
