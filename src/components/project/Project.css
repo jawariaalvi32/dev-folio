@@ -15,6 +15,13 @@
     margin-left: 75px;
   }
 
+  .project-div {
+    margin: 'auto';
+    display: 'flex'; 
+    justify-content: 'center';
+    padding-left: 7%;
+  }
+
   .project-main {
     justify-content: center;
     text-align: center;
@@ -53,11 +60,17 @@
   @media (max-width: 1380px) {
     .project-heading {
       font-size: 40px;
+      text-align: center;
     }
   }
   @media (max-width: 768px) {
     .project-heading {
       font-size: 30px;
       text-align: center;
+    }
+    .project-div {
+      margin: 'auto';
+      display: 'flex'; 
+      justify-content: 'center'
     }
   }

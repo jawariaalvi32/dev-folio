@@ -12,7 +12,7 @@ function Projects() {
     return (
         <div className="project-main-div">
             <h3 className="project-heading">PROJECTS</h3>
-            <Grid container style={{paddingLeft: '7%'}}>
+            <Grid container className="project-div">
                 {
                     buildProjects.projects.map((projects) => (
                         <Grid item md={4} key={projects.projectName}>

@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Headroom from 'react-headroom';
-import './Header.css';
+import './Header.scss';
 import { greeting } from '../../portfolio';
 
 function Header() {
@@ -19,8 +19,9 @@ function Header() {
           htmlFor="menu-btn"
           style={{ color: 'white' }}
         >
+          <span className={"navicon"}></span>
         </label>
-        <ul>
+        <ul className={"menu"}>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact Me</a></li>
